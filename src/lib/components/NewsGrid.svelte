@@ -1,19 +1,19 @@
 <script>
   const articles = [
     {
-      title: "Wealth Management for a New Generation: Wealthfront Goes...",
-      author: "Mike Volpi",
-      image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=600&auto=format&fit=crop"
+      title: "Strategic Real Estate: Building Value Through Long-Term Holdings",
+      author: "Investment Insights",
+      image: "/generated/image-modern-corporate-headquarters-building-w-1765927401174-5.webp"
     },
     {
-      title: "Security's Agentic Era Starts Here: Our Investment in 7AI",
-      author: "Shardul Shah",
-      image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=600&auto=format&fit=crop"
+      title: "Global Markets: Navigating Opportunities Across Public and Private Sectors",
+      author: "Market Analysis",
+      image: "/generated/image-financial-district-skyline-at-dusk-with--1765927404085-6.webp"
     },
     {
-      title: "Getting to know the Bornstein brothers",
-      author: "Nina Achadjian",
-      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=600&auto=format&fit=crop"
+      title: "Operating Companies: Value Creation Through Active Management",
+      author: "Portfolio Review",
+      image: "/generated/image-sustainable-agriculture-with-modern-farm-1765927406830-7.webp"
     }
   ];
 </script>

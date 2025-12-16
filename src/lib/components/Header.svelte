@@ -15,28 +15,22 @@
 <header class="fixed top-0 left-0 w-full z-50 transition-all duration-300 {isScrolled ? 'bg-white/90 backdrop-blur-sm py-4 shadow-sm' : 'bg-transparent py-8'}">
   <div class="container mx-auto px-6 md:px-12 flex justify-between items-center">
     <!-- Logo -->
-    <a href="/" class="text-[#E33E38] hover:opacity-80 transition-opacity">
-      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="4" y="6" width="20" height="3" fill="currentColor"/>
-        <rect x="4" y="13" width="14" height="3" fill="currentColor"/>
-        <rect x="4" y="20" width="20" height="3" fill="currentColor"/>
+    <a href="/" class="text-black hover:opacity-80 transition-opacity">
+      <svg width="32" height="35" viewBox="0 0 97 105" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path opacity="0.5" d="M0.84375 29.5892V75.3785L43.791 45.7896V0L0.84375 29.5892Z" fill="currentColor"/>
+        <path opacity="0.5" d="M0.84375 75.3787V29.5891L43.791 59.1783V104.968L0.84375 75.3787Z" fill="currentColor"/>
+        <path opacity="0.5" d="M96.8438 29.5891V75.3787L53.8965 45.7895V0L96.8438 29.5891Z" fill="currentColor"/>
+        <path opacity="0.5" d="M96.8438 75.3787V29.5891L53.8965 59.1783V104.968L96.8438 75.3787Z" fill="currentColor"/>
       </svg>
     </a>
 
     <!-- Navigation -->
     <nav class="hidden md:flex items-center space-x-8">
-      {#each ['Team', 'Philosophy', 'Companies', 'Perspectives', 'Resources'] as item}
+      {#each ['Philosophy', 'Sectors', 'Approach', 'Contact'] as item}
         <a href="#{item.toLowerCase()}" class="text-gray-600 hover:text-black text-sm font-medium transition-colors">
           {item}
         </a>
       {/each}
-      
-      <button class="text-gray-600 hover:text-black transition-colors ml-4" aria-label="Search">
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="11" cy="11" r="8"></circle>
-          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-        </svg>
-      </button>
     </nav>
   </div>
 </header>
